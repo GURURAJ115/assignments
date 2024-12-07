@@ -1,0 +1,133 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #9b9a9a;
+}
+
+#logo {
+    max-height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+}
+
+#nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-button {
+    cursor: pointer;
+    color: #666;
+    font-size: .9rem;
+    padding: 10px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    padding: 10px 00px 10px 10px;
+    height: 300px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button-color {
+    font-size: large;
+    cursor: pointer;
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    padding: 8px 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.calculator {
+    display: flex;
+    justify-content:space-around;
+    width: 600px;
+    /* background: #ffffff; */
+    padding: 20px;
+    border : 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.part2{
+    margin-top: 60px;
+}
